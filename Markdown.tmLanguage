@@ -28,6 +28,12 @@
 	<key>patterns</key>
 	<array>
 		<dict>
+			<key>match</key>
+			<string>[$£¥‘“〈《「『【〔＄（［｛｢￡￥]*[&#x3000;-&#x9fff;][!%,.:;?¢°’”‰′″℃、。々〉》」』】〕ぁぃぅぇぉっゃゅょゎ゛゜ゝゞァィゥェォッャュョヮヵヶゕゖㇰㇱㇲㇳㇴㇵㇶㇷㇸㇹㇺㇻㇼㇽㇾㇿ・ーヽヾ！％），．：；？］｝｡｣､･ｧｨｩｪｫｬｭｮｯｰﾞﾟ￠]*</string>
+			<key>name</key>
+			<string>meta.cjkword</string>
+		</dict>
+		<dict>
 			<key>begin</key>
 			<string>(?x)^
 				(?=	[ ]{,3}&gt;
